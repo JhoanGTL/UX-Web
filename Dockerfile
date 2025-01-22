@@ -1,0 +1,4 @@
+#Imagen
+
+FROM nginx.latest
+
