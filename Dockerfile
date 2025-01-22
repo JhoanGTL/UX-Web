@@ -1,6 +1,5 @@
-#Imagen
-
-FROM nginx.latest
+# Usa una imagen base de Nginx para servir la aplicación
+FROM nginx:latest
 
 COPY . /usr/share/nginx/html
 
